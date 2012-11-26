@@ -26,4 +26,7 @@ function(exports, Stream) {
   }
 
   exports.get = get;
+  
+  exports.Stream =
+  exports.MediaStream = Stream;
 });
