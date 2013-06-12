@@ -1,0 +1,14 @@
+{
+  "volo": {
+    "baseUrl": "js/lib",
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.x.x",
+      "mocha": "github:visionmedia/mocha/1.x.x",
+      "class": "github:anchorjs/class/master",
+      "events": "github:anchorjs/events/master",
+      "url": "github:anchorjs/url/master",
+      "chai": "github:chaijs/chai/1.x.x",
+      "mocha-results": "github:jaredhanson/mocha-results/1.x.x"
+    }
+  }
+}
