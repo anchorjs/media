@@ -1,7 +1,7 @@
 {
   "name": "media",
   "version": "0.0.0",
-  "description": "Audio and video module for Anchor.js.",
+  "description": "Media capture module for Anchor.js.",
   "repository": {
     "type": "git",
     "url": "git://github.com/anchorjs/media.git"
@@ -21,8 +21,20 @@
     }
   ],
   "main": "main",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "3.x.x",
+    "term-canvas": "0.0.x",
+    "mocha-phantomjs": "2.x.x",
+    "mocha-cloud": "0.1.x",
+    "mocha-cloud-grid-view": "0.0.x",
+    "deamdify": "0.1.x"
+  },
+  "browserify": {
+    "transform": "deamdify"
+  },
   "volo": {
-    "baseUrl": "vendor",
     "dependencies": {
       "class": "github:anchorjs/class/master",
       "events": "github:anchorjs/events/master"
