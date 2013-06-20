@@ -1,0 +1,18 @@
+{
+  "name": "mediacapture",
+  "version": "0.0.0",
+  "description": "Capture local media, including audio and video.",
+  "repo": "anchorjs/mediacapture",
+  "main": "main.js",
+  "scripts": [
+    "main.js",
+    "lib/stream.js",
+    "lib/track.js"
+  ],
+  "dependencies": {
+    "anchorjs/class": "*",
+    "anchorjs/selector": "*",
+    "anchorjs/url": "*"
+  },
+  "license": "MIT"
+}

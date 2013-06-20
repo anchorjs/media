@@ -1,7 +1,7 @@
 {
   "name": "mediacapture",
   "version": "0.0.0",
-  "description": "Media capture module for Anchor.js.",
+  "description": "Capture local media, including audio and video.",
   "repository": {
     "type": "git",
     "url": "git://github.com/anchorjs/mediacapture.git"
