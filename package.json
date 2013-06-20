@@ -1,13 +1,13 @@
 {
-  "name": "media",
+  "name": "mediacapture",
   "version": "0.0.0",
   "description": "Media capture module for Anchor.js.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anchorjs/media.git"
+    "url": "git://github.com/anchorjs/mediacapture.git"
   },
   "bugs": {
-    "url": "http://github.com/anchorjs/media/issues"
+    "url": "http://github.com/anchorjs/mediacapture/issues"
   },
   "author": {
     "name": "Jared Hanson",
@@ -30,6 +30,7 @@
     "mocha-phantomjs": "2.x.x",
     "mocha-cloud": "0.1.x",
     "mocha-cloud-grid-view": "0.0.x",
+    "component-amd": "0.1.x",
     "deamdify": "0.1.x"
   },
   "browserify": {
