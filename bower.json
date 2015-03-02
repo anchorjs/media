@@ -1,0 +1,30 @@
+{
+  "name": "mediacapture",
+  "version": "0.0.0",
+  "description": "Capture local media, including audio and video.",
+  "authors": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "homepage": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anchorjs/mediacapture.git"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "class": "git://github.com/anchorjs/class.git#master",
+    "selector": "git://github.com/anchorjs/selector.git#master",
+    "url": "git://github.com/anchorjs/url.git#master"
+  },
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Makefile",
+    "README.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}
